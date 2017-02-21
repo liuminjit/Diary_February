@@ -260,4 +260,4 @@ this是Javascript语言的一个关键字。它代表函数运行时，自动生
 3. 用new构造就指向新对象
 4. 通过 apply 或 call 或 bind 来改变 this 的所指
 
-![Image text](https://github.com/liuminjit/Diary_February/blob/master/Image/This%E3%80%901%E3%80%91%20.jpg?raw=true)
+![Image text](https://github.com/liuminjit/Diary_February/blob/master/Image/This%E3%80%901%E3%80%91%20.jpg?raw=true =600x160)
