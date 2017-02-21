@@ -242,3 +242,21 @@ baz = function() { return foo * bar; };
 这些变量可以被定义于该作用域中的所有函数访问，包括那些特权方法
 
 参考网址：http://www.jb51.net/article/28449.htm
+
+## Diary 【2.21】
+
+### javascript中this的四种用法
+
+在javascript当中每一个function都是一个对象，所以在这个里var temp=this 指的是function当前的对象
+
+this是Javascript语言的一个关键字。它代表函数运行时，自动生成的一个内部对象，只能在函数内部使用
+
+**This:**在函数执行时，**this 总是指向调用该函数的对象。要判断 this 的指向，其实就是判断 this 所在的函数属于谁**
+
+在《javaScript语言精粹》这本书中，把 this 出现的场景分为四类：
+
+1. 有对象就指向调用对象
+2. 没调用对象就指向全局对象
+3. 用new构造就指向新对象
+4. 通过 apply 或 call 或 bind 来改变 this 的所指
+
