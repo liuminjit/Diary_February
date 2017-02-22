@@ -261,3 +261,11 @@ this是Javascript语言的一个关键字。它代表函数运行时，自动生
 4. 通过 apply 或 call 或 bind 来改变 this 的所指
 
 参考网址：http://www.jb51.net/article/65850.htm
+
+## Diary 【2.22】
+
+### z-index详解
+
+
+
+参考网址： http://www.cnblogs.com/ForEvErNoME/p/3373641.html
