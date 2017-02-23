@@ -289,3 +289,7 @@ this是Javascript语言的一个关键字。它代表函数运行时，自动生
 z-index越大的在上方，没有设置z-index的默认为：0
 
 参考网址： http://www.cnblogs.com/ForEvErNoME/p/3373641.html
+
+## Diary 【2.23】
+### JS中setTimeout()的用法详解
+
