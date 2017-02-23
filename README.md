@@ -265,7 +265,27 @@ this是Javascript语言的一个关键字。它代表函数运行时，自动生
 ## Diary 【2.22】
 
 ### z-index详解
+发现 z-index 对节点没起作用. z-index 属性仅在节点的 **position 属性**为 **relative**, **absolute** 或者 **fixed** 时生效.
 
+#### 默认值规则
+ 如果所有节点都定义了 position:relative. z-index 为 0 的节点与没有定义 z-index 在同一层级内没有高低之分;
+ 
+ z-index 大于等于 1 的节点会遮盖 没有定义 z-index 的节点
+ 
+ z-index 的值为负数的节点将被没有定义 z-index 的节点覆盖
 
+#### 从父规则
+如果 A, B 节点都定义了 position:relative, A 节点的 z-index 比 B 节点大, 那么 A 的子节点必定覆盖在 B 的子节点前面.
+
+#### 顺序规则
+如果所有节点都定义了 position:relative, A 节点的 z-index 和 B 节点一样大, 但因为顺序规则, B 节点覆盖在 A 节点前面
+
+就算 A 的子节点 z-index 值比 B 的子节点大, B 的子节点还是会覆盖在 A 的子节点前面
+
+#### Tips
+很多人将 z-index 设得很大, 9999 什么的都出来了, 如果不考虑父节点的影响, 设得再大也没用, 那是无法逾越的层级
+
+#### 总结
+z-index越大的在上方，没有设置z-index的默认为：0
 
 参考网址： http://www.cnblogs.com/ForEvErNoME/p/3373641.html
