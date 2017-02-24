@@ -326,3 +326,12 @@ setTimeout('clearWord()', 3000)
 2013 年，谷歌开始研发 blink 引擎，chrome 28 以后开始使用,而 opera 则放弃了自主研发的 Presto 引擎，投入谷歌怀抱
 
 和谷歌一起研发 blink 引擎，国内各种 chrome系的浏览器（360、UC、QQ、2345 等等）也纷纷放弃 webkit，投入 blink 的怀抱
+
+我们上面提到 Chrome 是基于 WebKit 的分支，而 WebKit 又由渲染引擎 "WebCore" 和 JS 解释引擎 "JSCore" 组成，可能会让你搞不清 V8 和 JSCore 的关系
+
+你可以这样理解—— WebKit 是一块主板，JSCore 是一块可拆卸的内存条，谷歌实际上认为 Webkit 中的 JSCore 不够好，才自己搞了一个 V8 JS 引擎，这就是 Chrome 比 Safari 在某些 JS 测试中效率更高的原因
+
+如果说 chromium 还不足以脱离 Webkit 的 "帽子"，Blink 的出现，代表着 chrome 将自主研发渲染引擎（Blink）以及 Javascript 引擎（V8）
+
+可以期待在不久的将来，人们谈起 chrome 想到的不是 Webkit 而是 Blink。
+
