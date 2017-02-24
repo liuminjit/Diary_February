@@ -321,7 +321,7 @@ setTimeout('clearWord()', 3000)
 ## Diary 【2.24】
 ### 浏览器内核
 
-2013 年以前，代表有 Trident（IE），Gecko（firefox），Webkit（Safari chrome 等）以及 Presto（opera)
+2013 年以前，代表有 **Trident（IE）**，**Gecko（firefox）**，**Webkit（Safari chrome 等）**以及 **Presto（opera)**
 
 2013 年，谷歌开始研发 blink 引擎，chrome 28 以后开始使用,而 opera 则放弃了自主研发的 Presto 引擎，投入谷歌怀抱
 
