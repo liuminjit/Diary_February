@@ -293,3 +293,27 @@ z-index越大的在上方，没有设置z-index的默认为：0
 ## Diary 【2.23】
 ### JS中setTimeout()的用法详解
 
+setTimeout( ) 是属于 window 的 method, 但我们都是略去 window 这顶层物件名称
+
+这是用来设定一个时间, 时间到了, 就会执行一个指定的 method
+
+setTimeout( )是设定一个指定等候时间 (单位是千分之一秒, millisecond)
+
+时间到了, 浏览器就会执行一个指定的 method 或 function
+
+setTimeout( ) 通常是与 function 一起使用
+
+#### 使用方法
+
+setTimeout('clearWord()', 3000)
+
+例如：
+
+![picture3](http://files.jb51.net/file_images/article/201304/2013041416352495.gif)
+
+#### 清除setTimeout:
+
+1. timeoutID=setTimeout("count()", 1000)
+2. clearTimeout(timeoutID)
+
+参考网址:http://www.jb51.net/article/35535.htm
