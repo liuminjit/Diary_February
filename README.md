@@ -382,6 +382,10 @@ http://www.cnblogs.com/yuzhongwusan/archive/2011/11/17/2252208.html 【H5和H4.0
 
 http://www.runoob.com/html/html5-new-element.html 【分类详解】
 
-## Diary 【2.27】
-### H5标签区别详解
+## Diary 【2.28】
+### Chrome 的调试
 
+1. 按F12 或者 按shift+ctrl+i 打开谷歌开发工具
+2. 点击Sources 在其中选择断点，点击该行
+3. 刷新后，就会 paused in debugger (停在调试器)
+3. 若不想进入断点模式 则deactivate breakpoints  禁用断点 
