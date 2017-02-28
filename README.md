@@ -338,38 +338,50 @@ setTimeout('clearWord()', 3000)
 ## Diary 【2.27】
 ### H5新增标签：
 
-H5-总计27个新标签：
+2012年发布HTML5,新增加31个标签，以下27个为常用
 
-1. article: 标签定义外部的内容
-2. aside:标签定义 article 以外的内容
-3. audio:h5新增音频标签。没有高宽属性
-4. canvas:h5新增画布标签
-5. command: 定义命令按钮
-6. datalist：标签定义选项列表
-7. embed：标签定义嵌入的内容，比如插件
-8. details：标签用于描述文档或文档某个部分的细节
-9. figure：标签用于对元素进行组合
-10. figcaption：定义 figure 元素的标题
-11. footer：定义 section 或 document 的页脚
-12. header：定义 section 或 document 的页眉
-13. hgroup：用于对网页或区段（section）的标题进行组合
-15. keygen:标签规定用于表单的密钥对生成器字段
-16. mark：标签定义带有记号的文本
-17. meter：通过min="0" max="20"的方式定义度量衡。仅用于已知最大和最小值的度量
-18. nav：定义document或section或article的导航
-19. output：定义不同的输出类型，比如脚本
-20. progress：定义任何类型的任务的进度
-21. rp:定义若浏览器不支持 ruby 元素显示的内容
-22. rt：定义 ruby 注释的解释
-23. ruby：定义 ruby 注释
-24. section：标签定义文档中的节、区段。比如章节、页眉、页脚或文档中的其他部分
-25. source:audio和video的属性之一。为audio和video定义媒介源
-26. summary:为details定义标题
-27. time:定义日期或时间
-28. video：h5新增视频标签。具有高宽属性
+1. 【】article: 标签定义外部的内容
+2. 【】aside:标签定义 article 以外的内容
+3. 【】audio:h5新增音频标签。没有高宽属性
+4. 【】canvas: 新增画布标签，比如图表和其他图像。该标签基于 JavaScript 的绘图 API
+5. 【】command: 定义命令按钮,比如单选按钮、复选框或按钮
+6. 【】datalist：标签定义选项列表。请与 input 元素配合使用该元素，来定义 input 可能的值
+7. 【】embed：标签定义嵌入的内容，比如插件
+8. 【】details：标签用于描述文档或文档某个部分的细节
+9. 【】figure：标签用于对元素进行组合，规定独立的流内容（图像、图表、照片、代码等等）
+10. 【】figcaption：定义 figure 元素的标题
+11. 【】footer：定义 section 或 document 的页脚
+12. 【】header：定义 section 或 document 的页眉，定义了文档的头部区域
+13. 【】hgroup：用于对网页或区段（section）的标题进行组合
+14. 【】keygen:标签规定用于表单的密钥对生成器字段
+15. 【】mark：标签定义带有记号的文本
+16. 【】meter：通过min="0" max="20"的方式定义度量衡。仅用于已知最大和最小值的度量
+17. 【】nav：定义document或section或article的导航,nav定义导航链接的部分
+18. 【】output：定义不同的输出类型，比如脚本的输出
+19. 【】progress：定义任何类型的任务的进度
+20. 【】rp:在 ruby 注释中使用，定义不支持 ruby 元素的浏览器所显示的内容
+21. 【】rt：定义 ruby 注释的解释,定义字符（中文注音或字符）的解释或发音
+22. 【】ruby：定义 ruby 注释 （中文注音或字符）
+23. 【】section：标签定义文档中的节、区段。比如章节、页眉、页脚或文档中的其他部分
+24. 【】source:audio和video的属性之一。为audio和video定义媒介源 
+25. 【】summary:为details定义标题
+26. 【】time:定义日期或时间
+27. 【】video：h5新增视频标签（video 或者 movie）具有高宽属性 
+28. 【】dialog：定义对话框，比如提示框
+
+
+其余三个：
+
+1. 【】wbr:规定在文本中的何处适合添加换行符。
+2. 【】bdi:允许您设置一段文本，使其脱离其父元素的文本方向设置。
+3. 【】track:为诸如 video 和 audio 元素之类的媒介规定外部文本轨道。
 
 参考网址：
 
-http://www.cnblogs.com/yuzhongwusan/archive/2011/11/17/2252208.html【H5和H4.01的区别】
+http://www.cnblogs.com/yuzhongwusan/archive/2011/11/17/2252208.html 【H5和H4.01的区别】
 
-http://www.runoob.com/html/html5-new-element.html【分类详解】
+http://www.runoob.com/html/html5-new-element.html 【分类详解】
+
+## Diary 【2.27】
+### H5标签区别详解
+
