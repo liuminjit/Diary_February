@@ -335,3 +335,41 @@ setTimeout('clearWord()', 3000)
 
 可以期待在不久的将来，人们谈起 chrome 想到的不是 Webkit 而是 Blink。
 
+## Diary 【2.27】
+### H5新增标签：
+
+H5-总计27个新标签：
+
+1. article: 标签定义外部的内容
+2. aside:标签定义 article 以外的内容
+3. audio:h5新增音频标签。没有高宽属性
+4. canvas:h5新增画布标签
+5. command: 定义命令按钮
+6. datalist：标签定义选项列表
+7. embed：标签定义嵌入的内容，比如插件
+8. details：标签用于描述文档或文档某个部分的细节
+9. figure：标签用于对元素进行组合
+10. figcaption：定义 figure 元素的标题
+11. footer：定义 section 或 document 的页脚
+12. header：定义 section 或 document 的页眉
+13. hgroup：用于对网页或区段（section）的标题进行组合
+15. keygen:标签规定用于表单的密钥对生成器字段
+16. mark：标签定义带有记号的文本
+17. meter：通过min="0" max="20"的方式定义度量衡。仅用于已知最大和最小值的度量
+18. nav：定义document或section或article的导航
+19. output：定义不同的输出类型，比如脚本
+20. progress：定义任何类型的任务的进度
+21. rp:定义若浏览器不支持 ruby 元素显示的内容
+22. rt：定义 ruby 注释的解释
+23. ruby：定义 ruby 注释
+24. section：标签定义文档中的节、区段。比如章节、页眉、页脚或文档中的其他部分
+25. source:audio和video的属性之一。为audio和video定义媒介源
+26. summary:为details定义标题
+27. time:定义日期或时间
+28. video：h5新增视频标签。具有高宽属性
+
+参考网址：
+
+http://www.cnblogs.com/yuzhongwusan/archive/2011/11/17/2252208.html【H5和H4.01的区别】
+
+http://www.runoob.com/html/html5-new-element.html【分类详解】
