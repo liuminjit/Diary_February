@@ -309,7 +309,7 @@ setTimeout('clearWord()', 3000)
 
 例如：
 
-![56](http://files.jb51.net/file_images/article/201304/2013041416352494.gif)
+![](http://files.jb51.net/file_images/article/201304/2013041416352494.gif)
 
 #### 清除setTimeout:
 
